@@ -1,0 +1,8 @@
+services:
+  blk-hacking-ind-gaurav-kedia:
+    build: .
+    image: blk-hacking-ind-gaurav-kedia
+    container_name: blackrock-challenge-api
+    ports:
+      - "5477:5477"
+    restart: unless-stopped
